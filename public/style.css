@@ -23,19 +23,13 @@ button{
     width: 77px;
     height: 44px;
 }
-footer{
-    background: #343a40 ;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top:7rem
-}
-@media screen and (min-width: 300px) and (max-width:480px){
-    footer{
-        margin-top: 2rem;
-        padding: 1rem 0;
-    }
+
+@media screen and (min-width: 320px) and (max-width:480px){
     .container{
-        margin-top: 30px;
+        margin-top: 40px;
+    }
+    .screen{
+        margin-bottom: 20px;
+        font-size: 23px;
     }
 }

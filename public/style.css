@@ -1,0 +1,41 @@
+body{
+    background-color:  #e74c3c  !important;
+    color: #343a40 !important;
+}
+.container{
+    text-align: center;
+    margin-top: 55px;
+}
+img{
+    width: 70px;
+}
+table{
+    margin: auto;
+}
+.screen{
+    color: #343a40;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 25px;
+    width: 77px;
+    height: 44px;
+}
+footer{
+    background: #343a40 ;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top:7rem
+}
+@media screen and (min-width: 300px) and (max-width:480px){
+    footer{
+        margin-top: 2rem;
+        padding: 1rem 0;
+    }
+    .container{
+        margin-top: 30px;
+    }
+}
